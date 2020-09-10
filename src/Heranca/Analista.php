@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Alfa\Heranca;
 
-class Gerente extends Funcionario
+class Analista extends Funcionario
 {
   public function getBonificacao(): float
   {
-    return parent::getBonificacao() * 1.3;
+    return parent::getBonificacao() * 1.15;
   }
 }
